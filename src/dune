@@ -1,0 +1,6 @@
+(executable
+ (name main)
+ (ocamlopt_flags -g)
+ (libraries tsdl tsdl_image tgls.tgl3 angstrom gg)
+ ; (modes      (byte))
+ )
